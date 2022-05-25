@@ -6,19 +6,19 @@ It aims to educate myself and any stock market novices in investing in funds tha
 - S&P 500 index historical monthly data from https://www.investing.com/indices/us-spx-500-historical-data
 - Consumer Price Index (CPI) from [U.S. Bureau of Labor Statistics](https://data.bls.gov/cgi-bin/surveymost?cu) 
 ## Ask 
-#### Identify the business task (Two Questions to answer): 
+### Identify the business task (Two Questions to answer): 
 - Is there any correlation between inflation and the S&P 500 index? 
 - What does 10-year return on S&P 500 index fund investment look like?
-#### Shareholders 
+### Shareholders 
 Beginner investors who seek to invest in funds that mimic S&P 500 Index such as Vanguard 500 ETF (VOO) for a long term.
-#### Metrics
+### Metrics
 Ten year return in investing in S&P 500 index.
 ## Prepare 
-#### CPI dataset 
+### CPI dataset 
 - It was retrieved on May 9, 2022. 
 - It contains monthly CPI-U(Consumer Price Index for All Urban Consumers) data between Jan 1990 and Mar 2022.
 - It is used to calculate annual inflation rate. 
-#### S&P 500 index dataset 
+### S&P 500 index dataset 
 - It was retrieved on May 9, 2022.
 - It contains monthly S&P 500 index data between 1990 and 2022.
 
