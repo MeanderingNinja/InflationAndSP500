@@ -14,13 +14,38 @@ Beginner investors who seek to invest in funds that mimic S&P 500 Index such as 
 ### Metrics
 Ten year return in investing in S&P 500 index.
 ## Prepare 
-### CPI dataset 
+### [CPI dataset](https://github.com/emma-jinger/InflationAndSP500/blob/main/RawCPIData.xlsx) 
 - It was retrieved on May 9, 2022. 
-- It contains monthly CPI-U(Consumer Price Index for All Urban Consumers) data between Jan 1990 and Mar 2022.
-- It is used to calculate annual inflation rate. 
-### S&P 500 index dataset 
+- It contains monthly CPI-U (Consumer Price Index for All Urban Consumers) less food and energy data between Jan 1990 and Mar 2022.
+- It can be used to [calculate annual core inflation rates](https://www.usinflationcalculator.com/inflation/inflation-vs-consumer-price-index-cpi-how-they-are-different/). 
+- The [core inflation rate](https://www.thebalance.com/core-inflation-rate-3305918) excludes food and energy prices because they vary too much from month to month. This exclusion makes the core rate more accurate in measuring underlying inflation trends. 
+- Disclaimer: The inflation rates calculated in this project might have some discrepencies with that done by the Federal Reserve. 
+### [S&P 500 index dataset](https://github.com/emma-jinger/InflationAndSP500/blob/main/RawSP500HistoricalData.csv) 
 - It was retrieved on May 9, 2022.
-- It contains monthly S&P 500 index data between 1990 and 2022.
+- It contains monthly S&P 500 index data between Jan 1990 and May 2022.
+- It is used to calcualte 10-year returns investing in funds that mimic S&P 500 index. 
+- Disclaimer: Thre returns calculated from this project are only used for references, since dividends, investment management fee and such are not considered during the calculation.   
+## Process
+This step is done in Google Sheet. 
+### Rationale for using Google Sheet
+I chose to process the datasets in Google Sheet because the datasets are fairly small, with 389 records in S&P 500 dataset and 33 records in CPI dataset. Besides, using spreadsheet functions and menu tools to do the initial cleaning like removing duplicate data, checking for incorrectly entered data, and formatting data for consistency is very straightforward.
+### What did I do to process the S&P 500 dataset?
+1. Checked that there was no duplicate data. 
+2. Formatted the column that contains month and year data to the DATE data type.
+3. Checked there was no missing month or year.
+4. Checked the min and max of each column to make sure there was no incorrectly entered data. 
+5. Formatted numbers like 4,123.34 to 4123.34, and percent like -0.21% to -0.21.
+6. Added Id column for later use (primary key in PostgreSQL).
+7. Sorted date column from old to new. 
+### What did I do to process the CPI-U data? 
+1. Deleted the description part of the dataset.
+2. Checked that there was no duplicate data.
+3. Checked that there was no missing year. 
+### The cleaned datasets after this step
+- [Cleaned CPI data](https://github.com/emma-jinger/InflationAndSP500/blob/main/CleanedCPIData.csv)
+- [Cleaned S&P 500 data](https://github.com/emma-jinger/InflationAndSP500/blob/main/CleanedSP500HistoricalData.csv)
+## Analyze
+
 
 
 
