@@ -1,4 +1,4 @@
-# Inflation and S&P 500 
+# Inflation and S&P 500 Index
 ## Introduction
 This project showcases my attempt to follow the steps of the data analysis process: **ask, prepare, process, analyze, share**, and **act** for my own analysis. 
 It aims to educate myself and any stock market novices in investing in funds that mimic S&P 500 index.
