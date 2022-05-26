@@ -75,7 +75,11 @@ By examining the above plot, we see no obvious correlation between the inflation
 ![10-year adjusted return](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AdjustedTenYearReturn.png) 
 - The highest adjusted 10-year rolling return is adjusted to $27,778, whereas the lowest is adjusted to -$3,292. 
 - The possibility of increasing your money within 10 years is still 89.59%.
-- 
+## Act
+### Conclusion
+- Inflation rate cannot be used as a reference for one to decide when to invest in funds that mimic S&P 500 index, as no obvious correlation between them is found. 
+- The likelihood of one growing their money by investing in funds that mimic S&P 500 index is quite high (89.59%). It could be considered as a fairly safe investment option.  
+- Further analysis can be done to see if there is a better strategy on investing in funds that mimic S&P 500 index. Questions like "Would a longer term like 15 or 20 years make it safer?" or "Does strategy like Dollar-Cost Averaging make it safer?" are worth exploring.  
 
 
 
