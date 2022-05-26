@@ -56,7 +56,7 @@ I chose to use a SQL database because of its fast and powerful functionality. Si
 - **[S&P 500 10 Year Return and Inflation-adjusted Return Query](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500Return_query.sql)** 
   - Created a new table [SP500TenYearReturn&Adjusted](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500TenYearReturn%26Adjusted052422.csv) that contains 10 year returns and adjusted 10 year returns on S&P 500 
 ## Share
-The visualizations were created using Tableau Public and the slides were created in Gooogle Slides. 
+The visualizations were created using [Tableau Public](https://public.tableau.com/app/profile/emma.li2382/viz/SP500VsInflation_052422/InflationVsSP500) and the slides were created in Gooogle Slides. 
 ### A scatter plot 
 The following plot is used to show any correlation between inflation rate and S&P 500 index. 
 ![scatterplot](https://github.com/emma-jinger/InflationAndSP500/blob/main/InflationVsSP500_052022.png)
