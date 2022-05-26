@@ -55,6 +55,12 @@ I chose to use a SQL database because of its fast and powerful functionality. Si
   3. Created a new table [SP500AndInflation](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AndInflation052522.csv) by joining with the S&P 500 table
 - **[S&P 500 10 Year Return and Inflation-adjusted Return Query](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500Return_query.sql)** 
   - Created a new table [SP500TenYearReturn&Adjusted](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500TenYearReturn%26Adjusted052422.csv) that contains 10 year returns and adjusted 10 year returns on S&P 500 
-
+## Share
+The visualizations were created using Tableau Public and the slides were created in Gooogle Slides. 
+### A scatter plot 
+It is used to show any correlation between inflation rate and S&P 500 index. 
+![scatterplot](https://github.com/emma-jinger/InflationAndSP500/blob/main/InflationVsSP500_052022.png)
+By examine the above plot, we see no obvious correlation between the inflation rate and S&P 500 index. This is further confirmed by looking at the [correlation coefficient](https://www.investopedia.com/terms/c/correlationcoefficient.asp) ([see how -0.04 is calculated](https://github.com/emma-jinger/InflationAndSP500/blob/main/Correlation%20Coefficient%20.png)). Values of correlation coefficient near 0 indicate a very weak linear relationship.
+### A stacked bar chart  
 
 
