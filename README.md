@@ -58,9 +58,21 @@ I chose to use a SQL database because of its fast and powerful functionality. Si
 ## Share
 The visualizations were created using Tableau Public and the slides were created in Gooogle Slides. 
 ### A scatter plot 
-It is used to show any correlation between inflation rate and S&P 500 index. 
+The following plot is used to show any correlation between inflation rate and S&P 500 index. 
 ![scatterplot](https://github.com/emma-jinger/InflationAndSP500/blob/main/InflationVsSP500_052022.png)
 By examine the above plot, we see no obvious correlation between the inflation rate and S&P 500 index. This is further confirmed by looking at the [correlation coefficient](https://www.investopedia.com/terms/c/correlationcoefficient.asp) ([see how -0.04 is calculated](https://github.com/emma-jinger/InflationAndSP500/blob/main/Correlation%20Coefficient%20.png)). Values of correlation coefficient near 0 indicate a very weak linear relationship.
-### A stacked bar chart  
+### Two stacked bar charts  
+The following chart is used to compare the 10 year rolling returns if one invests $10K in S&P 500 index starting from different months and years. The cutoff month and year is May 2012. This is because May 2012 is the latest starting investment date for which we are able to calculate the 10-year return based on historical S&P 500 index data.  
+![10-year return](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500TenYearReturn.png) 
+- With $10K investment in S&P 500 index, the highest 10-year rolling return is $37,051, whereas the lowest is -$4,064.
+- The possibility of increasing your money within 10 years is 89.59%. 
+#### What would a [inflation-adjusted](https://www.investopedia.com/terms/i/inflation_adjusted_return.asp#:~:text=The%20inflation%2Dadjusted%20return%20is,removing%20the%20effects%20of%20inflation.) 10 year rolling return look like? 
+> Removing the effects of inflation from the return of an investment allows the investor to see the **true earning potential** of the security without external economic forces. 
+The cutoff month and year is Mar 2012. This is because Mar 2012 lastest date for which we are able to calculted the inflation-adjusted 10-year return (CPI index for Mar 2022 is the latest data we have).
+![10-year adjusted return](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AdjustedTenYearReturn.png) 
+- The highest adjusted 10-year rolling return is adjusted to $27,778, whereas the lowest is adjusted to -$3,292. 
+- The possibility of increasing your money within 10 years is still 89.59%.
+- 
+
 
 
