@@ -49,13 +49,12 @@ This step is done in PostgreSQL.
 ### Rationale for anaylzing the data using PostgreSQL. 
 I chose to use a SQL database because of its fast and powerful functionality. Simply write down all I want to do with the data in a query, I will get the transformed data in merely several seconds. The queries also enables traceability of my analysis. 
 ### What did I do to analyze the cleaned data? 
-1. Calculated the annual inflation rate and transformed CPI table to resemble the organization of the cleaned S&P 500 table, using CPI_query
-2. Joined the newly-generated table from step 1 with the cleaned S&P 500 table, using SP500_query1
-3. Calculated 10 year returns and adjusted 10 year returns based on the newly-generated table from step 2, using SP500_query2
-### Newly-generated datasets after this step
-- 
+- **[S&P 500 and Inflation Query](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AndInflation_query.sql)** 
+  1. Calculated the annual inflation rate
+  2. Transformed CPI table to resemble the organization of the cleaned S&P 500 table
+  3. Created a new table [SP500AndInflation](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AndInflation052522.csv) by joining with the S&P 500 table
+- **[S&P 500 10 Year Return and Inflation-adjusted Return Query](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500Return_query.sql)** 
+  - Created a new table [SP500TenYearReturn&Adjusted](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500TenYearReturn%26Adjusted052422.csv) that contains 10 year returns and adjusted 10 year returns on S&P 500 
 
 
 
-
-There are two goals of this data analysis. One is to identify if there is any correlation between inflation and S&amp;P500 index. The other one is to see what 10-year returns in investing in funds that mimic S&amp;P 500 index look like.
