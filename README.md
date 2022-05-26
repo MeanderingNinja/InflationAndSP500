@@ -69,7 +69,7 @@ By examining the above plot, we see no obvious correlation between the inflation
 #### What would a [inflation-adjusted](https://www.investopedia.com/terms/i/inflation_adjusted_return.asp#:~:text=The%20inflation%2Dadjusted%20return%20is,removing%20the%20effects%20of%20inflation.) 10 year rolling return look like? 
 > Removing the effects of inflation from the return of an investment allows the investor to see the **true earning potential** of the security without external economic forces. 
 
-*The cutoff month and year is Mar 2012. This is because Mar 2012 lastest date for which we are able to calculted the inflation-adjusted 10-year return (CPI index for Mar 2022 is the latest data we have).*
+*The cutoff month and year is Mar 2012. This is because Mar 2012 lastest date for which we are able to calculate the inflation-adjusted 10-year return (CPI index for Mar 2022 is the latest data we have).*
 ![10-year adjusted return](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500AdjustedTenYearReturn.png) 
 - The highest adjusted 10-year rolling return is adjusted to $27,778, whereas the lowest is adjusted to -$3,292. 
 - The possibility of increasing your money within 10 years is still 89.59%.
