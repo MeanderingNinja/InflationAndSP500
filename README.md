@@ -57,6 +57,8 @@ I chose to use a SQL database because of its fast and powerful functionality. Si
   - Created a new table [SP500TenYearReturn&Adjusted](https://github.com/emma-jinger/InflationAndSP500/blob/main/SP500TenYearReturn%26Adjusted052422.csv) that contains 10 year returns and adjusted 10 year returns on S&P 500 
 ## Share
 The visualizations were created using [Tableau Public](https://public.tableau.com/app/profile/emma.li2382/viz/SP500VsInflation_052422/InflationVsSP500) and the slides were created in Gooogle Slides. 
+
+An accompanying slides are [here](https://www.thebalance.com/best-time-to-invest-in-index-funds-2466412) to share my analysis. 
 ### A scatter plot 
 The following plot is used to show any correlation between inflation rate and S&P 500 index. 
 ![scatterplot](https://github.com/emma-jinger/InflationAndSP500/blob/main/InflationVsSP500_052022.png)
