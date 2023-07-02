@@ -6,7 +6,7 @@ It aims to educate myself and any stock market novices in investing in funds tha
 - S&P 500 index historical monthly data from https://www.investing.com/indices/us-spx-500-historical-data
 - Consumer Price Index (CPI) from [U.S. Bureau of Labor Statistics](https://data.bls.gov/cgi-bin/surveymost?cu) 
 ## Ask 
-#### Identify the business task (Two Questions to answer): 
+#### Identify the business task: 
 - Is there any correlation between inflation and the S&P 500 index? 
 - What does a 10-year return on S&P 500 index fund investment look like?
 #### Shareholders 
